@@ -1,5 +1,7 @@
 package blatt8;
 
+import java.net.InterfaceAddress;
+
 /**
  * Created with IntelliJ IDEA.
  * User: Julian
@@ -9,10 +11,12 @@ package blatt8;
  */
 public class Parser {
 
-
-
-    private class Nt {
-
+    public static boolean put(int token){
+        System.out.println(">" + token);
+        return false;
     }
+
+
+
 
 }

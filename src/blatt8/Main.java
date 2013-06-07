@@ -10,9 +10,12 @@ package blatt8;
 public class Main {
 
     public static void main(String[]args){
+
         Scanner scanner = new Scanner();
-
-
-        System.out.println(scanner.getNextToken() );
+        int token;
+        while ((token = scanner.getNextToken()) != Scanner.EOF ){
+            Parser.put(token);
+        }
+        System.out.println("End");
     }
 }
