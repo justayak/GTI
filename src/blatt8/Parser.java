@@ -8,4 +8,11 @@ package blatt8;
  * To change this template use File | Settings | File Templates.
  */
 public class Parser {
+
+
+
+    private class Nt {
+
+    }
+
 }
