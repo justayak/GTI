@@ -79,6 +79,7 @@ public class Scanner {
             currentLine = currentLine.toLowerCase();
         }
 
+        if (check("!")) return EOF;
         if (check("if")) return IF;
         if (check("fi")) return FI;
         if (check("then")) return THEN;
