@@ -3,6 +3,7 @@ package blatt8;
 import java.net.InterfaceAddress;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA.
@@ -54,6 +55,21 @@ public class Parser {
     private static void E(){
         set("<E>");
     }
+
+    /*private static Stack<Integer> tokens = new Stack<Integer>();
+
+    public static void put(int token){
+        tokens.push(token);
+    }
+
+    public static void build(){
+
+        while (!tokens.empty()){
+            int token = tokens.pop();
+
+        }
+
+    } */
 
     public static void put(int token){
 
