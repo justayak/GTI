@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--Created with JFLAP 6.4.--><structure>&#13;
+	<type>turing</type>&#13;
+	<automaton>&#13;
+		<!--The list of states.-->&#13;
+		<block id="1" name="q1">&#13;
+			<tag>Machine1</tag>&#13;
+			<x>87.0</x>&#13;
+			<y>482.0</y>&#13;
+			<final/>&#13;
+		</block>&#13;
+		<!--The list of automata-->&#13;
+		<Machine1/>&#13;
+	</automaton>&#13;
+</structure>
