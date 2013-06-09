@@ -10,12 +10,15 @@ package blatt8;
 public class Main {
 
     public static void main(String[]args){
-
+        System.out.println("End program with '!'");
         Scanner scanner = new Scanner();
         int token;
         while ((token = scanner.getNextToken()) != Scanner.EOF ){
             Parser.put(token);
         }
-        System.out.println("End");
+
+        Parser.print();
+
+        System.out.println("Program end");
     }
 }
